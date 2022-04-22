@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Track Money</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Track Money</string>
+    <string name="second_fragment_label">Track Money</string>
+    <string name="next">Ver Detalles</string>
+    <string name="previous">Ver Grafico</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="pay_method">Metodos de pago</string>
+    <string name="type_bill">Tipos de gastos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="graph_select">
+        <item>Tipo de gasto</item>
+        <item>Metodo de pago</item>
+    </string-array>
+
+</resources>

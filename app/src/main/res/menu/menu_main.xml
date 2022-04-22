@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.trackmoney.MainActivity">
+
+    <item
+        android:id="@+id/action_pay_method"
+        android:orderInCategory="100"
+        android:title="@string/pay_method"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_type_bill"
+        android:orderInCategory="100"
+        android:title="@string/type_bill"
+        app:showAsAction="never" />
+
+</menu>

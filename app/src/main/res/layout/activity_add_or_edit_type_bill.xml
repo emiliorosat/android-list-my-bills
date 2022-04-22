@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".typebill.ActivityAddOrEditTypeBill">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:padding="10sp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Tipo de gasto"
+            android:textAlignment="center"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:hint="Gasto"
+            android:textSize="20dp"
+            android:id="@+id/et_tb_ae"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+        <Button
+            android:id="@+id/btn_tb_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="agregar" />
+
+        <Button
+            android:id="@+id/btn_tb_back"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:backgroundTint="@color/red"
+            android:text="volver" />
+    </LinearLayout>
+
+</FrameLayout>
